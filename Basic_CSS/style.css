@@ -1,0 +1,31 @@
+/* Where h1 is called a selector in CSS where we select a particular tag of HTML to apply some particular css on it  */
+
+h1{
+    color: greenyellow; 
+    
+}
+
+/* There are others selectors also in CSS but when we select on the basis of class is known as class selector and denoted by dot ( . ) and if we select on the basis of id we use id selector and it is denoted by hashtag ( # ) */
+
+/* Class selector */
+
+.para{
+    color: rgb(121, 0, 181);
+}
+
+/* Id selector */
+
+#para2{
+    color: rgb(255, 230, 0);
+}
+
+/* Pesudo Class in css ( It is represented by single colon ( : ) ) */
+
+/* Note: If the HTML tag is given an id and if we are targeting that specific tag with the help of id then whatever the css you will apply using the id selector it will be applied because the priority of id selector is very high */
+
+/* We can use Pesudo class on any tag of the HTML */
+
+a:hover{
+    background-color: black;
+    color: white;
+}
