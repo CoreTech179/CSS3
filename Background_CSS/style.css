@@ -1,0 +1,11 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    background-image: url("https://i.pinimg.com/736x/2f/46/54/2f4654bfa5bef5b40e7e5ffa2cfa3545.jpg");
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    /* Basically it is recomended to use percentage while fixing the size in x and y direction */
+
+    /* background-position: bottom left ; */
+}

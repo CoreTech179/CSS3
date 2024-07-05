@@ -1,0 +1,38 @@
+/* 1. Background color: Setting the background color of an element */
+
+/* Example: Background-color: rgb(10,52,12); */
+
+/* 2. Background-image: Specifies an image to be used as a background */
+
+/* Example: background-image:url('image.jpg');  */
+
+/* 3. Background-repeat: Determines how the background image repeats or does not repeats */
+
+/* Values:  repeat, repeat-x, repeat-y, no-repeat*/
+
+/* Example: background-repeat: repeat; */
+
+/* 4. Background-position: set the starting poition of the background image */
+
+/* Values: cor-ordinates like (x,y) --> top left, centre centre, bottom right, percentages or length values */
+
+/* 5. Background-size: Defines the size of the background image */
+
+/* Values: auto, cover, contain, percentages or length values */
+
+/* Example: background-size: cover */
+
+/* 6. Background-attachement: It specifies if the background image scrolls with the content */
+
+/* Values: scroll, fixed or local */
+
+/* background-attachment: fixed */
+
+
+/* Background-Property in CSS3 */
+
+/* a. background-blend-mode: It applies blending mode to the background image and color */
+
+/* Values: Various Blending mode keywords like multiply, screen, overlay */
+
+/* Example: background-blend-mode: multiply */

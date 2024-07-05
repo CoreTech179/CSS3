@@ -9,7 +9,7 @@ h1{
 /* RGB color (i.e. Red, Green, Blue)  */
 
 p{
-    color: #d0ff00; 
+    color: rgb(208, 255, 0); 
 }
 
 /* RGBA --> It represents RED, GREEN, BLUE and Alpha for opacity or density control and the value of Alpha lies b/w (0-1)> It is similar to rgb but with a opacity control parameter*/
