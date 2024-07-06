@@ -1,0 +1,52 @@
+/* Border short hand property:  */
+
+/* Border: [border width] [border-style] [border-color]; */
+
+/* [border width]: Specify's the width of the border (1px,2px,3px.......) */
+/* [border-style]: Specify's the style of the border ("solid","dashed","dotted"..etc) */
+/* [border-color]: Specify's the color of the border  */
+
+
+/* Boarder-style: The border style property determines the style of the border. Common values includes "solid","dotted","dashed","double","groove","ridge","inset","outset". */
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.border{
+    height: 20rem;
+    width: 45rem;
+    border: 2px solid red;
+
+    /* We can write them indivisually also */
+
+    /* border-top: 5px solid purple;
+    border-right: 5px dotted rgb(0, 128, 128);
+    border-left: 6px ridge rgb(225, 246, 1);
+    border-bottom: 10px groove rgb(17, 209, 0);
+     */
+
+    /* Border-radius: 10px --> means radius is fixed for all the sides */
+
+    /* border-radius: 15px; */
+    border-radius: 50%;
+
+    /* Creating custom radius for each corners */
+    /* top-left | top-right | bottom left | bottom right */
+
+    /* border-radius: 15px 5px 10px 20px; */
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    line-height: 25px;
+}
+
+/* Border-radius: The border radius round the corners of an element's outer edge */
