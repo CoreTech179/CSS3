@@ -1,0 +1,57 @@
+/* 1. Text alignment: Basically it controls the horizontal alignment of the text within an element box*/
+/* common values: justify, centre, right, left */
+
+h1{
+    /* text-align: justify; */
+    /* text-align: right; */
+    /* text-align: left; */
+    /* text-align:center; */
+
+    text-decoration-line: underline;
+    /* text-decoration-line: overline; */
+    /* text-decoration-color: blueviolet; */
+
+    /* While using text decoration-color we have to use text-decoration-line */
+
+    /* text-decoration-thickness: 10px; */
+
+    /* While using text decoration-thickness we have to use text-decoration-line */
+
+    text-decoration-style: wavy;
+
+    /* text-transform: capitalize;  */
+    text-transform:lowercase; 
+
+}
+
+/* 2. Text Decoration: Basically it allows you to add decorations like underlines, overlines or line through text*/
+
+
+/* 3. Text Trasform:  Basically if we want that in our entrire text the first letter should be capital or lower then we use text transform*/
+
+/* 4. Text Spacing in CSS  */
+
+/* a. Letter spacing: The letter spacing property controls the spacing between the characters. (It can be set to positive values to increase spacing or negative values to decrease the spacing) */
+
+/* b. Word spacing: The word spacing peoperty controls the spacing between word in a text. (It can be set to positive values to increase word spacing or negative values to decrease the spacing) */
+
+/* c. line height property: Baically it is used to specify the the space b/w the lines */
+
+/* 5. Text Shadow: Basically it allows you to add text shadow effect to text characters*/
+
+/* It takes 3 values: (Horizontal shadow offset, vertical shadow offset, and the shadow color) */
+
+
+p{
+    letter-spacing: 1.6px;
+    word-spacing: 1px;
+    line-height: 1.56;
+    text-shadow: 2px 1px 5px blue;
+    /* 3 values are: Horizontal, vertical, blur radius, color */
+}
+
+a{
+    /* If we don't want a underline in our anchor tag then we use */
+    text-decoration: none;
+    color: rgb(100, 0, 193);
+}
