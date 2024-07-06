@@ -1,0 +1,42 @@
+/* Padding: Basically it is a space between the border and the your containt in a defined box */
+
+/* Uniform Padding: Where padding is fixed for all the directions */
+
+/* padding: 10px */
+
+/* Padding short-hand  */
+/* padding: padding-top, padding-right, padding-bottom, padding-left */
+
+/* We can also write it indivisually */
+
+/* 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 20px; 
+*/
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    height: 30rem;
+    width: 30rem;
+    border: 6px ridge yellow;
+    padding: 12px;
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    line-height: 25px;
+    word-spacing: 2px;
+}
