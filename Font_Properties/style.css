@@ -1,0 +1,26 @@
+/* 1. Font family: The font family property allows you to specify the font used for text */
+
+/* 2. Font size: Controls the font size of the text */
+
+/* 3. Font weight: Controls the thickness of the the text ranging from 100(thin) to 900(bold) */
+
+/* 4. Font style: Basically it allows us to apply styles like italic to text */
+
+/* 5. Font varient: Basically it controls the appearence of the text characters by modifying their varient forms */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Imported font from google fonts */
+
+h1{
+    font-family:'Urbanist';
+    font-weight: 900;
+
+}
+
+p{
+    font-family: monospace;
+    font-size: 52px;
+    font-style: italic;
+    font-variant: small-caps;
+}
