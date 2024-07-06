@@ -2,7 +2,7 @@
 
 /* Values: px(Pixel), inches (in), points(pt) */
 
-/* Relative Length: Relative length units specify a length relative to anaother length property. These units scale better b/w different rendering medium */
+/* Relative Length: Relative length units specify a length relative to another length property. These units scale better b/w different rendering medium */
 
 /* Values: em, root em (rem), percentage (%) */
 
@@ -79,6 +79,8 @@ p{
 html{
     font-size: 7px; 
     /* As a result 1rem = 10px */
+    /* When we change the font size of the root element all the other font-sizes will changed automatically. This is used for responsiveness of a website */
+    /* Here since font size we have mentioned as 7px ==> as a result it we increase or decrease the font size of the root element all the h1,p and li will also updated accordingly */
 }
 
 h1{
