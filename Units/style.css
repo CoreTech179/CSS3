@@ -1,0 +1,100 @@
+/* Absolute Length: The absolute length units are fixed and a length expressed in any of these will appear as exactly that size */
+
+/* Values: px(Pixel), inches (in), points(pt) */
+
+/* Relative Length: Relative length units specify a length relative to anaother length property. These units scale better b/w different rendering medium */
+
+/* Values: em, root em (rem), percentage (%) */
+
+
+/* Using Pixel */
+
+/* h1{
+    font-size: 54px;
+    color: purple;
+
+}
+
+p{
+    font-size: 36px;
+    color: darkgoldenrod;
+}
+
+li{
+    font-size: 44px;
+    color: orange;
+} */
+
+
+/* Using Percentage */
+
+/* 100% = 16px */
+/* 1px = 6.25% */
+
+/* h1{
+    font-size: 337.5%;
+    color: purple;
+
+}
+
+p{
+    font-size: 225%;
+    color: darkgoldenrod;
+}
+
+li{
+    font-size: 275%;
+    color: orange;
+} */
+
+
+/* Using em */
+
+/* 1em = 16px */
+
+/* 
+h1{
+    font-size: 3.375em;
+    color: purple;
+
+}
+
+p{
+    font-size: 2.25em;
+    color: darkgoldenrod;
+} */
+
+/* .parent{
+    font-size: 10px; 
+    /* Here font size changed because we have set the parent as 1em = 10px now that's why the list elemnts is relative to its parent and the size changes 
+} */
+
+/* li{
+    font-size: 2.75em;
+    color: orange;
+} */
+
+
+/* For 1 rem we can specify the font size as per our wish for the root element*/
+html{
+    font-size: 7px; 
+    /* As a result 1rem = 10px */
+}
+
+h1{
+    font-size: 5.4rem;
+    color: purple;
+
+}
+
+p{
+    font-size: 3.6rem;
+    color: darkgoldenrod;
+}
+
+li{
+    font-size: 4.4rem;
+    color: orange;
+}
+
+
