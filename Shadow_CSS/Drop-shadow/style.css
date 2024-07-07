@@ -1,4 +1,4 @@
-/* Drop shadow: Basically it is applied at any cutting edge of the image. */
+/* Drop shadow: Basically it is applied at the cutting edges of the image. */
 /* syntax--> filter: drop-shadow(x-direction y-direction spread-radius color) */
 
 

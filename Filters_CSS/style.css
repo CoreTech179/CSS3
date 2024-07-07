@@ -1,0 +1,53 @@
+/* Filters in CSS: Basically it is applied to HTML elements to modify their appearence.Filters can alter properties like color, brightness,contrast and more */
+
+/* 1. grayscale(): Converts the element to grayscale( i.e.black and white ). A value of 1 (100%) means fully grayscale */
+
+/* 2. blur(): Applys a blur effect to the element. The value determines the amount of blur */
+
+/* 3. brightness(): value greater than 1 it will increase the brightness and value less than 1 decrease the brightness */
+
+/* 4. contrast(): Adjust the contrast of the image. Value > 1 then increase the contrast and value < 1 decreses the contrast of the image */
+
+/* 5.saturate(): Increase or decrease the saturation of the element. Value > 1 increase the saturation and value < 1 decrease the saturation. */
+
+/* 6. hue-rotate(): Rotates the hue of the element. values are in degrees */
+
+/* 7. invert(): Inverts the color of the element. A value of 1 (100%) inverts completely*/
+
+/* 8. opacity(): Adjust the trasperency of the element. Value range from 0 (comletely trasparent) and 1 (completely opaque) */
+
+/* 9. sepia(): Applies a sepia tone effect to the element. A value of 1(100%) is full sepia */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+img{
+    height: 20rem;
+    width: 20rem;
+
+    /* filter: grayscale(0.5);  */
+    /* Here 0.5 means make the image 50% black and white */
+
+    /* filter: blur(5px); */
+    /* filter: brightness(50%); */
+    /* filter: contrast(1.5); */
+    /* filter: saturate(5); */
+    /* filter: hue-rotate(45deg); */
+    /* filter: invert(1.5); */
+    /* filter: opacity(0.5); */
+    filter: sepia(1.5);
+
+}
