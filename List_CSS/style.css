@@ -1,0 +1,42 @@
+/* 1. The list-style-type property specifies the type of the list item marker */
+
+/* 2. The list-style-image property specifies an image as the list item marker */
+
+/* 3. The list-style-position property specifies the position of the list-item-markers (bullet points) */
+
+/* 4. The list-style property is a short hand property. It is used to set all the properties in one declaration */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    border: 2px ridge gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    height: 30rem;
+    width: 30rem;
+    border: 2px solid rgb(255, 0, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font-family: serif;
+    font-size: xx-large;
+    border: 2px solid green;
+    margin: 5px;
+    /* list-style-type: square;
+    list-style-position: inside; */
+}
