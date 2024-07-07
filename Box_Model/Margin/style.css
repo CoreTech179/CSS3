@@ -1,0 +1,65 @@
+/* Margin: Basically it the space outside the element's border. It creates seperation b/w the other elements in the layout */
+
+/* Uniform Margin: Where margin is fixed for all the directions */
+
+/* margin: 10px */
+
+/* margin short-hand  */
+/* margin: margin-top, margin-right, margin-bottom, margin-left */
+
+/* We can also write it indivisually */
+
+/* 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 20px; 
+*/
+
+/* CSS Box Sizing property: Basically it controls how the total width and height of an element is calculated, including its content, padding and border. It has only 2 values: content-box(default) or border-box */
+
+/* Basically if we defined a width of a container or height of a container without box-sizing: "border-box" property then the width or height of the box becomes the sum of (content + padding + border + margin  = width or height of the box) which should not be done. If we defined width or height a box lets say 800px then it should be 800px not the summation of all. That's why we use box-sizing property */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* Here we write this piece of code because if we are seeing any vertical or horizontal scroll bar then our website is not correct because some default margin and padding is already applied and to remove them we write this piece of code inside the universal operator (*) .*/
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+
+    /* margin:5px; */
+}
+
+.container{
+    height: 30rem;
+    width: 30rem;
+    border: 5px ridge rgb(246, 255, 0);
+    padding: 10px;
+    margin: auto;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    line-height: 25px;
+}
+
+/* Advance Margin in CSS */
+
+/* auto values: you can use margin: auto; to horizontally centre an element within its container.This is comonly used for centring block level elements. */
+
+/* Negative margin: you can use (-ve) margin values to overlap elements or pull elements closer to each other.*/
+
+/* collapsing margins: when two different margins meets  they can collapse into single margin and one with the highest margin value will be applied. (ex. margin-bottom: 50px & for other element we give margin top: 60px then as per our calculation 60 + 50  = 110px but in reality only 60px will be applied ) */
