@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    border: 2px ridge yellow;
+    text-align: center;
+
+    /* 1. By default linear-gradient is applied from top to bottom */
+
+    /* background-image: linear-gradient(red, yellow);  */
+    
+    /* 2. Linear-gradient by using direction: to right, to left and to top */
+
+    /* background-image: linear-gradient(to right,red, yellow);  */
+    /* background-image: linear-gradient(to left,red, yellow);  */
+    /* background-image: linear-gradient(to top,red, yellow);  */
+    
+    /* 3. Linear-gradient by using angles in (deg): we can provide diffrent angles  */
+    
+    /* background-image: linear-gradient(45deg,tomato, yellow);  */
+
+    /* 4. Linear gradient diagonally: to bottom right (that means travel from top to bottom in right direction), to top left, to top left and  to top right */
+
+    /* background-image: linear-gradient(to bottom right,red,rgb(174, 255, 0)); */
+    /* background-image: linear-gradient(to bottom left,red,rgb(174, 255, 0)); */
+    /* background-image: linear-gradient(to top left,red,rgb(174, 255, 0)); */
+    /* background-image: linear-gradient(to top right,red,rgb(174, 255, 0)); */
+
+    /* We can also do repeating linear gradient:  */
+
+    /* background-image: repeating-linear-gradient(45deg, purple, green,100px); */
+}
