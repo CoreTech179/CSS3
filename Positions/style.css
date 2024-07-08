@@ -1,0 +1,54 @@
+/* Positions in CSS */
+
+/* 1. Relative--> Relative means the child will move only relative to the parent when the child is declared as absolute.It is mandatory to declare child as absolute when you declared parent as relative*/
+
+/* 2. Absolute--> all the child inside a particular box will move only on that defined box when child is declared as absolute*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 2px solid green;
+    flex-direction: column;
+}
+
+.parentDiv{
+    height: 27rem;
+    width: 60rem;
+    border: 2px ridge gold;
+    position: relative;
+}
+
+.child1,.child2,.child3,.child4{
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid red;
+    margin-bottom: 3px;
+}
+
+.child{
+    position: absolute;
+}
+
+.child1{
+    top: 0;
+    right: 0;
+}
+
+.child3{
+    bottom: 0;
+    left: 0;
+}
+
+.child4{
+    bottom: 0;
+    right: 0;
+}
