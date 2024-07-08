@@ -1,0 +1,32 @@
+/* Fixed: Element with Position fixed are positioned relative to the viewport, such that they remain the same position even when the page is scrolled. We can use top, left, right, bottom properties*/
+
+/* Sticky: Sticky means if we use property sticky than the content inside a particular div will move just like fixed property but as soon as we scroll down further it will not appear because the element can only on that particular defined div only */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainSection{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    /* top: 0; */
+    bottom: 0;
+    color: rgb(13, 255, 0);
+}
+
+.Section{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(45deg,red, yellow);
+}
