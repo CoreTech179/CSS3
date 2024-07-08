@@ -1,0 +1,54 @@
+/* Combinators in CSS: Basically it is used to define the relationship between different elements in your HTML document. They allow you to target elements based on their position and hirerchy within the document structure.*/
+
+/* 1.Descendent selector (space) --> selects an element that is decendent of another element*/
+
+/* 2.Child selector (>) -->  selects an element that is a direct child of another element*/
+
+/* 3.Adjacent Sibling Selector (+) --> Selects an element that is directly precedded by another element*/
+
+/* 4. General Sibling Selector (~) --> selects all the elements that is the sibling of the another element and share the same parent*/
+
+/* 5. Universal selector (*) --> selects all the elements */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px ridge yellow;
+}
+
+.container{
+    height: 50rem;
+    width: 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* ul li{
+    color: green;
+}
+
+
+ul > li{
+    color: gold;
+}
+
+ul + li {
+    color: blueviolet;
+}
+
+
+ul ~ li{
+    color: brown;
+} */
