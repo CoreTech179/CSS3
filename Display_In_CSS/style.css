@@ -1,0 +1,34 @@
+/* Display in CSS */
+
+/* 1. Block Elements--> Basically Block level elements takes the full width available. And the other element will appear on the next line not on the same line */
+
+/* 2. Inline elements--> Basically it will only take up the width as much as neccessay required */
+
+/* 3. Inline block element--> Basically the disadvantage of the Inline elements is that we can't apply height or width to it to make it some extent better. So we use display: Inline-block property such that we can apply the height,width,margin, padding to the Inline elements. */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    border: 3px ridge gold;
+}
+
+
+p{
+    border: 5px solid purple;
+    margin-bottom: 20px;
+}
+
+a{
+    border: 2px solid green;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
