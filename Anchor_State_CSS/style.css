@@ -1,0 +1,54 @@
+/* Anchor Link States in CSS after the link is being clicked */
+
+/* 1. Link(`a:Link`)--> Tis is the default state for an unvisited Link*/
+
+/* 2. Visited(`a:visited`)--> Basically this state is applied to a link that the user has already visited*/
+
+/* 3. Hover(`a:hover`) --> This state triggers when the user hovers their mouse pointer over a link.*/
+
+/* 4. Active(`a:active`)--> This state is triggered when the user clicks on a link */
+
+/* Note: Here we need to write this states in this order only otherwise it will not work. */
+
+/* Short form is -> LVHA (This represents the states of the Link) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    border: 2px ridge gold;
+    background-color: black;
+}
+
+.container{
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gold;
+    margin: auto;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color: greenyellow;
+}
+
+a:hover{
+    color: rgb(11, 209, 223);
+}
+
+a:active{
+    color: orange;
+}
+
