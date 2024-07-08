@@ -1,0 +1,41 @@
+/* Overflow: Basically it controls the content that is overflowing and doesn't fit within the available space. It is a useful property for handling content that exceeds its container's dimensions.*/
+
+/* Basically it have some properties */
+
+/* 1. Hidden: Content that overflows the container is hidden and not visible */
+
+/* 2. Scroll(Both Horizontal and vertical): are added to the container allowing users to see the hidden content */
+
+/* 3. Auto: scroll bar's are added when the content is not fitting the container*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Overflow{
+    height: 20rem;
+    width: 30rem;
+    border: 3px ridge gold;
+    padding: 10px;
+    text-align: justify;
+
+    /* overflow: visible;  */
+    /* Default */
+
+    /* overflow: hidden; */
+    /* overflow:scroll; */
+    /* overflow:auto; */
+
+    overflow-y: scroll;
+}
