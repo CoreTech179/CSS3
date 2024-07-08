@@ -1,0 +1,29 @@
+/* Static means it is by default. It is like we are not applying any position properties. */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border: 2px solid green;
+    flex-direction: column;
+}
+
+.parentDiv{
+    height: 27rem;
+    width: 60rem;
+    border: 2px ridge gold;
+}
+
+.child1,.child2,.child3,.child4{
+    height: 5rem;
+    width: 5rem;
+    border: 2px solid red;
+    margin-bottom: 3px;
+}
