@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    border: 3px ridge gold;
+}
+
+.container{
+    height: 40rem;
+    width: 60rem;
+    border:2px ridge green;
+    margin: auto;
+    margin-top: 1rem;
+
+    /* Flex-box container properties */
+
+    display: flex;
+    /* All the Items are arranged in a row and it is by default when we write display flex*/
+
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* row-reverse means the items are starting from the right to left direction */
+    /* column-reverse means all the items are starting from the bottom in a reverse order */
+
+    /* With the help of flex-direction we can change the direction of the items from row to column or column to row and also some other properties */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+
+    /* 1. flex-start is by default in justify content and this property is used to horizontally set the items */
+    /* 2. flex-end property where the all items starting from the right hand side of the flex-container */
+    /* 3. justify content: centre is used to centre the all items horizontally */
+    /* 4. space-around property is used to give an equal space b/w the all items */
+    /* 5. space-evenly property is used give space b/w all the items evenly */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+    align-items: center;
+
+    /* flex-start is by default (horizontal-top) for vertical arrangement of all the items */
+    /* flex-end is used to place all the items at the bottom vertically */
+
+
+    flex-wrap: wrap;
+    /* Basically suppose we have multiple items and we want that it all the items are not fit horizontally then again start from next line while decreasing the width */
+
+    align-content: center;
+    /* Basically this property we can only use when we use flex-wrap = "wrap" property to centre all the items and other properties while decreasing the width of the flex-container */
+}
+
+.item1,.item2,.item3,.item4{
+    height: 8rem;
+    width: 8rem;
+    border: 2px ridge black;
+    margin: 3px;
+}
+
+/* Properties for items */
+.item2{
+    flex-grow: 1;
+    /* Here flex-grow means whenever we applyflex-grow to a particular item it will take all the available space. "Numeric value represents how many times" */
+
+    flex-shrink: 5;
+    /* Basically flex shrink is used to shrink an item x times from the other items. "Numeric value represents how many time you want to shrink an item " */
+}
+
+.item3{
+    flex-basis: 50rem;
+    /* Basically it is used to provide an width to the respective item inside a flex container */
+}
+
+.item4{
+    align-self:flex-end;
+    /* Basically align self property can only be applied to the items of the flex-container */
+}
