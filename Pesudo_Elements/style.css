@@ -1,0 +1,99 @@
+/* Pseudo elements in CSS */
+
+/* 1. ::before Pesudo-element: The ::before Pesudo element is used to insert content before the content of an element. It is often used to add decorative elements, icons  or text before an element without modifying the actual html content */
+
+/* Syntax-->
+    selector::before{
+    content: "";
+    additional css properties
+} */
+
+/* 1. ::after Pesudo-element: The ::after Pesudo element is used to insert content after the content of an element. It is often used to add decorative elements, icons  or textual element after the element */
+
+/* Syntax-->
+    selector::after{
+    content: "";
+    additional css properties
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    border: 3px ridge gold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(54, 51, 51);
+    color: white;
+}
+
+.container{
+    height: 40rem;
+    width: 47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px ridge blueviolet;
+    position: relative;
+}
+
+p{
+    display: inline-block;
+    width:46rem;
+    margin-top: 5px;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 1.5rem;
+}
+
+p::first-letter{
+    font-size: 3rem;
+    /* ::first-letter pseudo element is used to manupulate the 1st letter of the selected element */
+    color: rgb(13, 155, 226);
+}
+
+p::first-line{
+    text-decoration: underline;
+    /* ::first-line pesudo element is used to add some css to the first line of the selected element. Here we have selected paragraph tag. */
+}
+
+p::selection{
+    background-color: rgb(154, 130, 101);
+
+    /* Basically ::selection pesudo element is used when we select a paragraph with our mouse by deafult color is blue. therfore we can change this with the help of selection pesudo element. */
+}
+
+h1{
+    color: greenyellow;
+}
+
+h1::before{
+    content: "Hi I am before Pesudo element in CSS";
+    position: absolute;
+    top:1rem;
+}
+h1::after{
+    content: "Hi I am after Pesudo Element in CSS";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+a{
+    display: inline-block;
+    margin-top: 6px;
+    text-decoration: none;
+    color: gold;
+    position: absolute;
+    bottom: 14rem;
+    left: 6px;
+}
