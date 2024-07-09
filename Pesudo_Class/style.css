@@ -1,0 +1,65 @@
+/* 1. first-child: Selects the first child element of its parent */
+
+/* 2. last-child: Selects the last child element of its parent */
+
+/* 3. nth-child(n): selects elements based on their position within a parent element, where "n" is a numeric value */
+
+/* 4. first-of-type: selects the first element of its type within its parent */
+
+/* 5. last-of-type: selects the last element of its type within its parent */
+
+/* 6. nth-of-type(n): selects element of ist specified type based on their position  */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 3px ridge gold;
+}
+
+li{
+    font-size: 3rem;
+}
+
+
+/* This means inside container if li have the first child exist then make color "chocolate"  */
+
+/* .container li:first-child{
+    color:chocolate;
+} */
+
+
+/* This means inside container if li have the last child exist then make color "green" */
+
+/* .container li:last-child{
+    color: green;
+} */
+
+
+.container li:nth-child(2){
+    color: blue;
+    /* This nth-child selector will select the specific tag and apply the css properties to that element whose number I have mentioned. || 2 means here 2nd element of li if li is present at the 2nd position. If that li is not present at the 2nd position then the css property will not be applied. */
+}
+
+.container li:first-of-type{
+    text-decoration: underline;
+    /* This first-of-type means if li is present within the container select its first child and apply the css properties defined. */
+}
+
+/* Similarly we have last-of-child selector also that selects the last child */
+
+.container li:nth-of-type(4){
+    color: pink;
+}
+
