@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 2px ridge gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    /* border: 1px ridge red; */
+    height: 70vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 10rem;
+    left: 1rem;
+}
+
+p{
+    display: inline-block;
+    width: 40rem;
+    text-align: justify;
+    position: absolute;
+    left: 1rem;
+}
+
+a{
+    position: absolute;
+    bottom: 10rem;
+    left: 1rem;
+    text-decoration: none;
+    color: white;
+    border: 3px ridge white;
+    display: inline-block;
+    padding: 5px;
+    width: 8rem;
+    height: 2.3rem;
+    text-align: center;
+    border-radius: 4px;
+
+    /* Transition properties  */
+    /* 1. Transition property--> that is where we need to apply the transition. Here we can pass multiple properties with the help of comma (,) or we can use a parameter "all" */
+    /* transition-property: width, background-color, color; */
+    transition-property: all;
+    /* 2. Duration means in how many seconds you want to complete the transition */
+    transition-duration: 0.5s;
+    /* Timining function means in which way you want to complete the trasition (fast,slow.....) */
+    transition-timing-function: linear;
+    
+    /* Delay of transition  */
+
+    /* transition-delay: 1s; */
+
+}
+
+a:hover{
+    width: 12rem;
+    background-color:white;
+    color: black;
+}
+
+.border{
+    border: 2px solid white;
+}
+
+
+img{
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    right: 4rem;
+    border-radius: 7rem;
+}
